@@ -55,9 +55,9 @@ async def button_click(update: Update, context: ContextTypes.DEFAULT_TYPE):
         if chat_member.status in ["member", "administrator", "creator"]:
             await query.message.reply_text(f"🎉 Thanks {query.from_user.first_name}! এখন তুমি chat করতে পারো।")
         else:
-            await query.message.reply_text("⚠️ আগে group join করো, তারপর 'JOINED' চাপো।")
+            await query.message.reply_text("⚠️ প্রিয় স্ক্যামার,,🤨 প্রথমে group join করো, তারপর 'JOINED' চাপো।")
     except:
-        await query.message.reply_text("⚠️ আগে group join করো, তারপর 'JOINED' চাপো।")
+        await query.message.reply_text("⚠️প্রিয় স্ক্যামার,,🤨 প্রথমে group এ join করো,তারপর 'JOINED' চাপো।")
 
 # Run Bot
 app = ApplicationBuilder().token(BOT_TOKEN).build()
