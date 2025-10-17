@@ -5,7 +5,8 @@ from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandle
 # Bot Configuration
 # =====================
 BOT_TOKEN = "8331836488:AAHRRCPePtRrAdgJyUWwSOrGqqfmWH0gR1g"
-GROUP_LINK = "https://t.me/+JPbwhQwSfiBlN2Q1"
+GROUP_LINK = "https://t.me/hackifyvortex"
+💥💥
 CONTACT = "@shahi_vai"
 BANNER_URL = "https://i.ibb.co/ccvRwVBr/Gemini-Generated-Image-luotytluotytluot.png"  # direct image URL
 
